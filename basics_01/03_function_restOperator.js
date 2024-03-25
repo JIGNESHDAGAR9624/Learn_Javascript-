@@ -21,6 +21,8 @@ function calculatePrice(val1 , val2 , ...num1){ //  val1 add 100 val2 add 200 an
 // handlesimpleObjectt(user)
 
 
+
+
 // get array value
 const myarr =[200 , 300 ,400 , 500]
 function returnarray(getArray){
