@@ -63,7 +63,7 @@ const user = {
 // const addone = (add1 , add2)  =>  (add1 + add2);
 
 
-const addone = (add1 , add2)  =>  ({username: "jignesh"}) // when i want to return  object , 
+const addone = (add1 , add2)  =>  ({username: "jignesh" , email: "jig@google.com"}) // when i want to return  object , 
                                                            //wrap with parenthses() 
 
 console.log(addone(3,4));
