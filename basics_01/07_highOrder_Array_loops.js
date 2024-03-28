@@ -20,7 +20,7 @@
 // }
 
 
-// Maps 
+// Maps :-  when you need a key-value collection.
 // not Add Dublicate Value in Map
 const map = new Map()
 map.set(`IN` , "India" )
