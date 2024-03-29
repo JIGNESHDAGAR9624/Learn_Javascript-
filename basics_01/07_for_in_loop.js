@@ -25,13 +25,32 @@ for (const key in programming){
 }
 
 
-const mapping = new Map()
-map.set(`IN` , "India" )
-map.set(`Fr` , "France")
-map.set(`USA` , "United States Of America")
-map.set(`IN` , "India" )
+// const mapping = new Map()
+// map.set(`IN` , "India" )
+// map.set(`Fr` , "France")
+// map.set(`USA` , "United States Of America")
+// map.set(`IN` , "India" )
 
-for (const key in mapping) {
-    console.log(key)
+// for (const key in mapping) {
+// //    console.log(key)
+// }
+
+
+// for each loop
+const coding = ["js" , "ruby" , "java" , "python" , "cpp"]
+
+// callback function 
+// coding.forEach( function (item) {
+//     console.log(item)
+// })
+
+//Arrow callback function
+
+// coding.forEach( (val) => {
+//    console.log(val);
+// })
+
+function printme(item){
+    console.log(item);
 }
-
+coding.forEach(printme)
