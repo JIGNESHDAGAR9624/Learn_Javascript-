@@ -1,6 +1,6 @@
 
 // for each loop
-const coding = ["js" , "ruby" , "java" , "python" , "cpp"]
+//const coding = ["js" , "ruby" , "java" , "python" , "cpp"]
 
 // callback function 
 // coding.forEach( function (item) {
@@ -28,30 +28,41 @@ const coding = ["js" , "ruby" , "java" , "python" , "cpp"]
 
 
 //use array object in for each
-\
- const mycoding = [
-    {
-        languageName: "javascript",
-        languageFileName: "js"
-    },
-    {
-        languageName: "ruby",
-        languageFileName: "rB"
-    },
+
+//  const mycoding = [
+//     {
+//         languageName: "javascript",
+//         languageFileName: "js"
+//     },
+//     {
+//         languageName: "ruby",
+//         languageFileName: "rB"
+//     },
     
-    {
-        languageName: "cpp",
-        languageFileName: "c++"
-    },
-    {
-        languageName: "css",
-        languageFileName: "Case cading style sheets"
-    },
- ]
+//     {
+//         languageName: "cpp",
+//         languageFileName: "c++"
+//     },
+//     {
+//         languageName: "css",
+//         languageFileName: "Case cading style sheets"
+//     },
+//  ]
 
 
- mycoding.forEach( (item) =>{
-    console.log(item.languageFileName)
-    console.log(item.languageName)
- })
+//  mycoding.forEach( (item) =>{
+//     console.log(item.languageFileName)
+//     console.log(item.languageName)
+//  })
+
+
+// for each loop desent return value
+const coding = ["js" , "ruby" , "py" , "Android" , "java"]
+
+const val = coding.forEach((item) =>{
+    // console.log(item);   
+
+})
+
+console.log(val); 
 
