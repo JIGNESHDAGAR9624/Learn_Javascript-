@@ -59,6 +59,22 @@ const books = [
 ]
 
 
-const userBooks = books.filter((bookitem) => bookitem.genre == `Fiction`)
+const userBooks = books.filter((bookitem) =>{ return bookitem.publish > 2000 && bookitem.genre == `Non-Fition`})
 
-console.log(userBooks);
+//console.log(userBooks);
+
+
+
+//use Map()
+
+
+const myNumbers = [1 , 2, 3,4 , 5,6 ,7 ,8 ,9, 10]
+
+//const newnums = myNumbers.map((num) => { return  num  + 10})
+
+
+//  use double mapping inside and use filter 
+const newnums = myNumbers.map((num) => num * 10)
+                          .map((num) => {return num + 1})
+                          .filter((num) => num > 15)
+console.log(newnums)
